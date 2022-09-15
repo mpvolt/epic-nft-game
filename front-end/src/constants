@@ -1,0 +1,13 @@
+const contractAddress = '0x82b287075D6FF102dbE77d0Be01Ba24f21964811';
+
+const transformCharacterData = (characterData) => {
+  return {
+    name: characterData.name,
+    imageURI: characterData.imageURI,
+    hp: characterData.hp,
+    maxHp: characterData.maxHp,
+    attackDamage: characterData.attackDamage,
+  };
+};
+
+export {contractAddress, transformCharacterData};
